@@ -9,7 +9,7 @@ In the past I've wanted, both academically and for fun experimentations, to comp
 
 ## How it works
 
-You create a runner object. You add agent, environments and other things you might need to the runner. You run the runner.
+You create a runner object. You add agents, environments and other things you might need to the runner. You run the runner.
 
 ```python
 from rlrunner.agents.simple_agent import SimpleAgent
