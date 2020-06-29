@@ -86,7 +86,7 @@ As such, 1 env and 3 agents were added to the runner, each agent being a SimpleA
 The DynamicTC is used, so the runs will not end when a fixed episode number is reached.
 The SimpleSS will collect the information of the runs and store it.
 When all is done the SimpleSS will also present plots showing the average run of each agent, which can be seen below.
-![Example Plots](example.png)
+![Example Plots](example.PNG)
 
 ## Ending notes
 
