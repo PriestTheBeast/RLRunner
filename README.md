@@ -40,15 +40,11 @@ The Runner do_it() method also creates a new thread, which will simulate the run
 
 The runner will do a run simulation for each Agent/Env pair it has, e.g. above the only pair was SimpleAgent/SimpleEnv so only one run simulation, if another agent was added then 2 run simulations would be made, for SimpleAgent/SimpleEnv and TheOtherAgent/SimpleEnv.
 
-A run simulation constitutes of 3 loops, the loop of runs which has the loop of episodes which then has the loop of steps.
-
-A step is one cycle of the simple RL loop.
-
-An episode is a loop of steps. Generally an episode ends when the agent reaches a goal or after X steps.
-
-A run is a loop of episodes. Generally a run ends after the agent is done learning the task/how to reach the goal or after X episodes.
-
-A run simulation is a loop of runs. A run simulation ends after X runs.
+A run simulation constitutes of 3 loops, the loop of runs which has the loop of episodes which then has the loop of steps:
+* A step is one cycle of the simple RL loop.
+* An episode is a loop of steps. Generally an episode ends when the agent reaches a goal or after X steps.
+* A run is a loop of episodes. Generally a run ends after the agent is done learning the task/how to reach the goal or after X episodes.
+* A run simulation is a loop of runs. A run simulation ends after X runs.
 
 I only talked about 2 of the main 4 components (BaseAgent and BaseEnv) and will now discuss the other 2: the TerminationCondition and the StatSaver.
 
