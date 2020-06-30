@@ -47,7 +47,7 @@ This is a simple example which simulates a SimpleAgent run in a SimpleEnv.
 There are abstract classes (BaseAgent, BaseEnv, etc) for you to extend and then use.
 For example, the SimpleAgent class is a simple Q-learning implementation that extends the abstract BaseAgent class.
 
-BaseEnv also extends the gym.Env class, so any Env you make that extends the BaseEnv is also a gym env and any gym env should be compatible with the runner.
+BaseEnv also extends the gym.Env class, so any gym.Env should be compatible with the runner and any Env you make that extends the BaseEnv is also a gym.Env.
 The SimpleEnv is a simple maze implementation with some potential for extension.
 
 The Runner do_it() method also creates a new thread, which will simulate the run, and returns the thread. In case you want to have multiple runners doing simulations at the same time.
