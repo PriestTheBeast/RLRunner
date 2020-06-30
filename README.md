@@ -51,7 +51,9 @@ A run is a loop of episodes. Generally a run ends after the agent is done learni
 A run simulation is a loop of runs. A run simulation ends after X runs.
 
 I only talked about 2 of the main 4 components (BaseAgent and BaseEnv) and will now discuss the other 2: the TerminationCondition and the StatSaver.
+
 The TerminationCondition is necessary and it is the class that will decide when a run should end. This exists in order to allow for implementations that observe the agent's performance and dynamically decide when to end a run (when has an agent finish learning). The provided SimpleTC is a simple implementation that ends an episode after a set X number of episodes has passed. The provided DynamicTC is an example of a more complex implementation that stores information about the agent's learning progress to stop a run when it considers the agent has finished learning.
+
 The StatSaver is optional but highly recommended. It's an utility class made for the purpose of facilitating the gathering, storing and visualization of information about the runs. The provided SimpleSS is a simple implementation that stores some agent information which can then be visualized at the end of the runs (with the help of matplotlib.pyplot).
 
 For more info then the one provided here it's probably better to just read and learn from the documentation in the class files.
