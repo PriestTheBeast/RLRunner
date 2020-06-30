@@ -1,6 +1,6 @@
 # RL Runner
 
-> An easy to use and expand framework for RL experimentation and run simulation
+> An easy to use and expand framework for Reinforcement Learning experimentation and run simulation
 
 ## About
 
@@ -104,4 +104,3 @@ The SimpleSS will collect the information of the runs and store it.
 When all is done the SimpleSS will also present plots showing the average run of each agent, which can be seen below.
 
 ![Example Plots](example.PNG)
-
