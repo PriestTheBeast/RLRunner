@@ -86,13 +86,18 @@ As such, 1 env and 3 agents were added to the runner, each agent being a SimpleA
 The DynamicTC is used, so the runs will not end when a fixed episode number is reached.
 The SimpleSS will collect the information of the runs and store it.
 When all is done the SimpleSS will also present plots showing the average run of each agent, which can be seen below.
+
 ![Example Plots](example.PNG)
 
 ## Ending notes
 
 I made this to be as whatever you might need as possible.
+
 You can install as a library and quickly have a system for comparing some agents and experiment in RL, 
 or even take the package from here, slam it in your project and redesign anything you want from it.
+
 Sharing your work should be simpler when both people use the same underlying system, no matter if it's an original agent, env or anything else.
+
 In case you are a teacher, you could even take this runner or make a custom one to your needs, and give your students a good foundation to build upon and learn. You can even directly compare their agents under the same rules and make fun competitions.
+
 I hope this can be useful to people :)
