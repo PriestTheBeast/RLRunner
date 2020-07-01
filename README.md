@@ -53,7 +53,11 @@ This is a simple example which simulates a SimpleAgent run in a SimpleEnv.
 There are abstract classes (BaseAgent, BaseEnv, etc) for you to extend and then use.
 For example, the SimpleAgent class is a simple Q-learning implementation that extends the abstract BaseAgent class.
 
-BaseEnv also extends the gym.Env class, so any gym.Env should be compatible with the runner and any Env you make that extends the BaseEnv is also a gym.Env.
+BaseEnv also extends the gym.Env class, so any Env you make that extends the BaseEnv is also a gym.Env. A wrapper env is also provided, so that you can add existing gym.Env's to the runner.
+Example:
+```python
+runner.add_env(GymWrapperEnv(gym.make('CartPole-v0')))
+```
 The SimpleEnv is a simple "2 room navigation problem" implementation with some potential for extension.
 
 The Runner do_it() method also creates and returns a new thread, in which it will simulate the run. This is helpful in case you want to have multiple runners doing simulations/running at the same time.
