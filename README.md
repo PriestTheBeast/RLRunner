@@ -2,6 +2,12 @@
 
 > An easy to use and expand framework for Reinforcement Learning experimentation and run simulation
 
+## Install
+
+```
+pip install rlrunner
+```
+
 ## About
 
 I had some difficulty naming this project and ended up choosing RL runner, but some other options would be RL Agent runner, Agent comparator, RL Running System, Agent Running system, etc...
