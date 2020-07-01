@@ -2,7 +2,7 @@
 
 > An easy to use and expand framework for Reinforcement Learning experimentation and run simulation
 
-## Install
+## Installation
 
 ```
 pip install rlrunner
