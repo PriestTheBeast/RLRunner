@@ -21,7 +21,7 @@ I made this to be as whatever you might need as possible.
 You can install as a library and quickly have a system for comparing some agents and experiment in RL, 
 or even take the package from here, slam it in your project and redesign anything you want from it.
 
-Sharing your work should also be simpler when both people use the same underlying system, no matter if it's an original agent, env or anything else.
+Sharing your work should also be simpler when both people use the same underlying system, no matter if you want to share an original agent, env or anything else.
 
 In case you are a teacher you could even take this runner, or make one from it custom to your needs, and give your students a good foundation to build upon and learn. You can even directly compare their agents under the same rules and make fun competitions.
 
