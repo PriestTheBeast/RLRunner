@@ -74,7 +74,7 @@ A run simulation constitutes of 3 loops, the loop of runs which has the loop of 
 
 I only talked about 2 of the main 4 components (BaseAgent and BaseEnv) and will now discuss the other 2: the TerminationCondition and the StatSaver.
 
-The TerminationCondition is necessary and it is the class that will decide when a run should end. This exists in order to allow for implementations that observe the agent's performance and dynamically decide when to end a run (when has an agent finish learning). The provided SimpleTC is a simple implementation that ends an episode after a set X number of episodes has passed. The provided DynamicTC is an example of a more complex implementation that stores information about the agent's learning progress to stop a run when it considers the agent has finished learning.
+The TerminationCondition is necessary and it is the class that will decide when a run should end. This exists in order to allow for implementations that observe the agent's performance and dynamically decide when to end a run (when has an agent finished learning). The provided SimpleTC is a simple implementation that ends an episode after a set X number of episodes has passed. The provided DynamicTC is an example of a more complex implementation that stores information about the agent's learning progress to stop a run when it considers the agent has finished learning.
 
 The StatSaver is optional but highly recommended. It's an utility class made for the purpose of facilitating the gathering, storing and visualization of information about the runs. The provided SimpleSS is a simple implementation that stores some agent information which can then be visualized at the end of the runs (with the help of matplotlib.pyplot).
 
@@ -111,7 +111,7 @@ runner.stat_saver.show_info()
 
 This Runner will do 10 runs for each run simulation, and it will make 3 run simulations, one for each agent.
 As such, 1 env and 3 agents were added to the runner, each agent being a SimpleAgent but with a different learning rate (default lr is 0.5).
-The DynamicTC is used, so the runs will not end when a fixed episode number is reached.
+The DynamicTC is used, so the runs will not just end when a fixed episode number is reached.
 The SimpleSS will collect the information of the runs and store it.
 When all is done the SimpleSS will also present plots showing the average run of each agent, which can be seen below.
 
