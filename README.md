@@ -116,3 +116,8 @@ The SimpleSS will collect the information of the runs and store it.
 When all is done the SimpleSS will also present plots showing the average run of each agent, which can be seen below.
 
 ![Example Plots](example.PNG)
+
+## Support
+
+If you find this useful and want to support you can buy me coffee :) 
+https://www.buymeacoffee.com/MMartins
