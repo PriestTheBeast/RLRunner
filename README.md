@@ -119,6 +119,6 @@ When all is done the SimpleSS will also present plots showing the average run of
 
 ## Support
 
-If you find this useful and want to support you can buy me coffee :) 
+If you find this useful consider supporting and buy me coffee :) 
 
-https://www.buymeacoffee.com/MMartins
+<a href="https://www.buymeacoffee.com/MMartins"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a coffee&emoji=&slug=MMartins&button_colour=5F7FFF&font_colour=ffffff&font_family=Lato&outline_colour=000000&coffee_colour=FFFFFF"></a>
